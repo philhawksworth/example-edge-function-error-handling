@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Example serverless function error handling</title>
+</head>
+<body>
+  <h1>This serverless function has crashed</h1>
+  <p>But saw this custom error page instead of a default 500 error message because <a href="https://developers.netlify.com/guides/custom-error-hanlding-if-a-serverless-function-has-crashed/">Netlify supports custom error handling for Edge Functions</a></p>
+  
+  <h2>Error page</h2>
+  <p>An error page doesn't have to be this ugly. You can direct the user to whatever you like and elegantly handle the error behind the scenes</p>
+
+  <h2>Examples of other error handling options</h2>
+  <ul>
+    <li><a href="/happy-function">Happy function</a></li>
+    <li><a href="/unhandled-error">Erroring function - unhandled</a></li>
+    <li>Erroring function - custom error page</li>
+    <li><a href="/intended-page">Erroring function - silently error</a></li>
+  </ul>
+</body>
+</html>
