@@ -1,6 +1,6 @@
 # Custom error handling for when a serverless function has crashed
 
-This example repo demonstrates the [custom error handling](https://docs.netlify.com/edge-functions/optional-configuration/#error-handling) options Netlify supports in [Edge Functions]().
+This example repo demonstrates the [custom error handling](https://docs.netlify.com/edge-functions/optional-configuration/#error-handling) options Netlify supports in Edge Functions. Read more on the [Netlify Developer Hub](https://developers.netlify.com/guides/using-custom-error-handling-if-a-serverless-function-has-crashed).
 
 ## View the demo
 
