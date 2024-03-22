@@ -4,13 +4,15 @@ This example repo demonstrates the [custom error handling](https://docs.netlify.
 
 ## View the demo
 
-Visit XX to browse this simple demo
+[![Netlify Status](https://api.netlify.com/api/v1/badges/d5a311d5-e084-4481-8b16-77737fbe08b0/deploy-status)](https://app.netlify.com/sites/example-edge-function-error-handling/deploys)
+
+Visit https://example-edge-function-error-handling.netlify.app/ to browse this simple demo
 
 ## Clone and explore
 
 By clicking the deploy button below, you can clone this example repo to explore it and try it locally, and also deploy it to Netlify to experiment with the different custom error handling options for Edge Functions.
 
-DTN
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/philhawksworth/example-edge-function-error-handling)
 
 ## Exploring what happens when an edge function has crashed
 
@@ -34,7 +36,8 @@ Browsing the example site, you can see the results of a number of custom error h
 1. Clone this repo (or click the button above to clone and deploy your copy in one step)
 
 ```bash 
-git checkout https://github.com/philhawksworth/example-edge-function-custom-error-handling
+git checkout https://github.com/philhawksworth/example-edge-function-error-handling
+
 
 # or, if you cloned the site already via the Deploy button above
 git checkout YOUR-REPO-URL
